@@ -3,10 +3,9 @@
     --secondtext:#eeeeee;
     --link: black;
     --mainbackground:#121212	;
-    /* #eaeaea #292a2d	 */
     --secondbackground:#2a2a2a   ;
     --border-color:#bebfbf    ;
-    --themeDotBorder:white;
+    --themeDotBorder:#bebfbf;
     --shadow-colour:#bebfbf;
 }
 h1,h2,h3,h4,h5,h6, strong{
@@ -20,7 +19,7 @@ p,li,span,label,input,textarea{
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 0.6rem;
   }
   
   ::-webkit-scrollbar-track {
@@ -33,3 +32,9 @@ p,li,span,label,input,textarea{
     /* background: #474747;  */
     background: var(--border-color); 
   }
+
+@media screen and (max-width: 1200px) {
+    .main-container{
+        width: 90%;
+    }
+}

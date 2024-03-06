@@ -5,7 +5,7 @@
     --mainbackground:#eaeaea;    /* #eaeaea */
     --secondbackground:white;
     --border-color:#c1c1c1;
-    --themeDotBorder:black;
+    --themeDotBorder:#c1c1c1;
     --shadow-colour: rgba(0,0,0,0.75);
 }
 

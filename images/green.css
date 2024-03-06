@@ -2,13 +2,11 @@
     --Maintext:white;
     --secondtext:#eeeeee;
     --link: black;
-
     --mainbackground:#606B56;    /* #eaeaea */
     --secondbackground:#515a48;
-
     /* --border-color:#161914; */
     --border-color:#28321b;
-    --themeDotBorder:white;
+    --themeDotBorder:#28321b;
 
     --shadow-colour: #2a2f25;
 
@@ -23,7 +21,7 @@ p,li,span,label,input,textarea{
     font-family:'Roboto Mono', monospace;
 }
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 0.6rem;
   }
   
   ::-webkit-scrollbar-track {
