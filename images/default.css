@@ -313,11 +313,11 @@ h6{font-size: 16px;}
 }
 #contact-image{
     max-width: 48px;
+        transition: 0.5s ease-in-out;
 }
 
 #contact-image:hover{
-    background-color: var(--shadow-colour);
-    border-radius: 50%;
+    translate: 20px;
 }
 
 @media (max-width: 1201px){
@@ -332,6 +332,9 @@ h6{font-size: 16px;}
         align-items: center;
         padding: 1.5rem 2rem 1.5rem 1rem;
         flex-wrap: wrap;
+    }
+    #contact-image:hover{
+        translate: 0 -15px;
     }
 }
 
